@@ -69,8 +69,8 @@ _printf is a custom implementation of the C programming function printf.
 
 <h2>Authors</h2>
 
-<b>Luis Antonio Rodriguez</b> | <a href="https://github.com/Kumoth">@Kumoth
+<a href="https://github.com/Kumoth"> @Kumoth
 
-<b>Paola Suarez</b> | <a href="https://github.com/paosua86">@paosua86
+<a href="https://github.com/paosua86"> @paosua86
 
-<b>Miguel Moreno</b> | <a href="https://github.com/miguel5219">@miguel5219
+<a href="https://github.com/miguel5219"> @miguel5219
