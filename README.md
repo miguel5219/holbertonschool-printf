@@ -9,22 +9,22 @@ _printf is a custom implementation of the C programming function printf.
 <h3>String</h3>
 
 - <b>Input:</b> _printf("%s\n", 'Hello World');
-<b>Output:</b> Hello World.
+	<b>Output:</b> Hello World.
 
 <h3>Character</h3>
 
-<b>Input:</b> _printf("The first letter of Hello World is %c\n", 'H');
-<b>Output:</b> The first letter of Hello World is H
+- <b>Input:</b> _printf("The first letter of Hello World is %c\n", 'H');
+	<b>Output:</b> The first letter of Hello World is H
 
 <h3>Integer:</h3>
 
-<b>Input:</b> _printf("I'm %i years old\n", 25);
-<b>Output:</b> I'm 25 years old
+- <b>Input:</b> _printf("I'm %i years old\n", 25);
+	<b>Output:</b> I'm 25 years old
 
 <h3>Decimal:</h3>
 
-<b>Input:</b> _printf("%d\n", 2000);
-<b>Output:</b> 2000
+- <b>Input:</b> _printf("%d\n", 2000);
+	<b>Output:</b> 2000
 
 <h2>Project Requirements</h2>
 
@@ -43,12 +43,13 @@ _printf is a custom implementation of the C programming function printf.
 
 <h2>Mandatory Tasks</h2>
 
--  Write function that produces output with conversion specifiers c, s, and %.
--  Handle conversion specifiers d, i.
--  Create a man page for your function.
+- Write function that produces output with conversion specifiers c, s, and %.
+- Handle conversion specifiers d, i.
+- Create a man page for your function.
 
 <h2>Advanced Tasks</h2>
--  Handle conversion specifier b.
+
+- Handle conversion specifier b.
 
 <h2>File Descriptions</h2>
 
@@ -64,12 +65,12 @@ _printf is a custom implementation of the C programming function printf.
 
 - <b>print_numbers.c:</b> contains the functions print_i and print_d, which handle the conversion specifiers i and d, respectively
 
-<b>print_b.c:</b> - contains the functions print_b, which handle the conversion specifiers b
+- <b>print_b.c:</b> - contains the functions print_b, which handle the conversion specifiers b
 
 <h2>Authors</h2>
 
-<b>Luis Antonio Rodríguez</b> | <a href="https://github.com/Kumoth">@Kumoth
+<b>Luis Antonio Rodriguez</b> | <a href="https://github.com/Kumoth">@Kumoth
 
-<b>Paola Suárez</b> | <a href="https://github.com/paosua86">@paosua86
+<b>Paola Suarez</b> | <a href="https://github.com/paosua86">@paosua86
 
 <b>Miguel Moreno</b> | <a href="https://github.com/miguel5219">@miguel5219
