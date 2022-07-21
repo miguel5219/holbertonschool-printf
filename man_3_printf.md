@@ -1,13 +1,12 @@
-PRINTF(3)       Linux Programmer's Manual       PRINTF(3)
-
-NAME
-      printf
+.TH man 3 "July 2022" "_printf man page"
+.SN NAME
+_printf
 
 SYNOPSIS
-      #include <stdarg.h>
-			
-			typedef struct print
-			{
+#include <stdarg.h>
+
+typedef struct print
+{
 		  	char *t;
 				int (*f)(va_list);
 			} print_t;
