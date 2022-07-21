@@ -3,7 +3,7 @@
 
 /**
  * print_c - print char
- * @c: char 
+ * @c: char
  * Return: 1
  */
 int print_c(va_list c)
