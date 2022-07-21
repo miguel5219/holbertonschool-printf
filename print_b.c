@@ -7,7 +7,7 @@
  * Return: number of digits printed
  */
 int print_b(va_list b)
-{	
+{
 	unsigned int d, c, i, sum;
 	unsigned int a[32];
 	int j;
