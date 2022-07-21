@@ -35,7 +35,7 @@ static int (*list(const char *format))(va_list)
  */
 int _printf(const char *format, ...)
 {
-	unsigned int i = 0, count = 0;
+	unsigned int i = 0, j = 0;
 	va_list listcomp;
 	int (*f)(va_list);
 
@@ -47,26 +47,26 @@ int _printf(const char *format, ...)
 		for (; format[i] != '%' && format[i]; i++)
 		{
 			_putchar(format[i]);
-			count++;
+			j++;
 		}
 		if (!format[i])
-			return (count);
+			return (j);
 		f = list(&format[i + 1]);
 		if (f != NULL)
 		{
-			count += f(listcomp);
+			j += f(listcomp);
 			i += 2;
 			continue;
 		}
 		if (!format[i + 1])
 			return (-1);
 		_putchar(format[i]);
-		count++;
+		j++;
 		if (format[i + 1] == '%')
 			i += 2;
 		else
 			i++;
 	}
 	va_end(listcomp);
-	return (count);
+	return (j);
 }
