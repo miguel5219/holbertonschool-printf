@@ -9,22 +9,22 @@ _printf is a custom implementation of the C programming function printf.
 <h3>String</h3>
 
 - <b>Input:</b> _printf("%s\n", 'Hello World');
-	<b>Output:</b> Hello World.
+- <b>Output:</b> Hello World.
 
 <h3>Character</h3>
 
 - <b>Input:</b> _printf("The first letter of Hello World is %c\n", 'H');
-	<b>Output:</b> The first letter of Hello World is H
+- <b>Output:</b> The first letter of Hello World is H
 
 <h3>Integer:</h3>
 
 - <b>Input:</b> _printf("I'm %i years old\n", 25);
-	<b>Output:</b> I'm 25 years old
+- <b>Output:</b> I'm 25 years old
 
 <h3>Decimal:</h3>
 
 - <b>Input:</b> _printf("%d\n", 2000);
-	<b>Output:</b> 2000
+- <b>Output:</b> 2000
 
 <h2>Project Requirements</h2>
 
